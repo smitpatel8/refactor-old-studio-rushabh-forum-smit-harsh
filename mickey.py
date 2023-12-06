@@ -1,5 +1,5 @@
 from turtle import *
-# speed(0)
+
 def mickey_emoji(): # function to draw a mickey mouse emoji 
     def draw(x,y,color,size): # draw mickey, passing (x,y) co-ordinates, with color and size
         penup()
@@ -23,11 +23,5 @@ def mickey_emoji(): # function to draw a mickey mouse emoji
     right(60)
     width(3) # defining the line thickness of the mouth
     circle(40,120)
-    # hideturtle()
-# penup()
-# setposition(-200,0)
-# pendown()
 
-mickey_emoji()
 
-done()

@@ -28,4 +28,3 @@ def ice_cream():
     circle(-5,360)
     end_fill()
 
-ice_cream()
