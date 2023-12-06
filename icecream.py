@@ -1,13 +1,11 @@
 from turtle import *
-import turtle as t
 
 def ice_cream():
     #ice cream code
-    
     #cone
     fillcolor('#6c3333')
     begin_fill()
-    for i in range(2):                    # Added a for loop to reduce repetitive lines of code
+    for i in range(2): # Added a for loop to reduce repetitive lines of code
         forward(100)
         right(120)
     forward(100)
